@@ -1,0 +1,132 @@
+body {
+    background: #002754;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    }
+    
+    h1 {
+    text-transform: uppercase;
+    background: #002754;
+    display: inline-block;
+    }
+    
+    h2 {
+    text-decoration: underline;
+    background: #7B6FDE;
+    width: 20%;
+    margin: auto;
+    }
+    
+    div {
+    padding: 20px;
+    width: 65px;
+    height: 65px;
+    border-radius: 50px;
+    display: inline-block;
+    }
+    
+    section {
+    width: 50vw;
+    height: 20vw;
+    margin: auto;
+    /* margin-bottom: 100px; */
+    }
+    
+    #one {
+    background: rgb(200,60,60);
+    }
+    
+    #two {
+    font-weight: 400;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    }
+    
+    #space {
+    background: #266ef6;
+    }
+    
+    #power {
+    background: #e429f2;
+    }
+    
+    #soul {
+    background: #ff8b00;
+    }
+    
+    #reality {
+    background: #ff0130;
+    }
+    
+    #mind {
+    background: #ffd300;
+    }
+    
+    #time {
+    background: #12e772;
+    }
+    
+    #scroll {
+    margin-bottom: 2000px;
+    }
+    
+    /* START BELOW THIS LINE */
+    /* From left to right the stones are Space, Power, Soul, Reality, Mind, Time The other names list is the same order top to bottom. Colors order blue, pink, orange, red, yellow, green */
+
+    section.relative{
+        position: relative;
+    }
+
+    #power{
+        position: relative;
+        right: 225px;
+        
+    }
+
+    #space{
+        position: relative;
+        top: 115px;
+        right: 115px;
+        
+    }
+
+    #soul{
+        position: absolute;
+        right: 0%;
+        bottom: 0%;
+        z-index: 1;
+    }
+
+    #reality{
+        position: absolute;
+        right: 0%;
+        bottom: 150px;
+        z-index: 1;
+
+    }
+
+    #mind{
+        position: fixed;
+        right: 0%;
+    }
+
+    #time{
+        position: fixed;
+        right: 0%;
+        top: 0%;
+        z-index: 2;
+    }
+
+    h1{
+        position: sticky;
+        top: 0;
+        z-index: 2;
+    }
+
+    h2{
+        position: sticky;
+        top: 65px
+    }
